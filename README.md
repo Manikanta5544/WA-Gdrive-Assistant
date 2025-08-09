@@ -251,18 +251,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🆘 Support
 
-- **GitHub Issues**: Report bugs and request features
-- **Documentation**: Check the wiki for detailed guides
-- **Community**: Join our Discord for support and discussions
-
-## 🎯 Roadmap
-
-- [ ] Natural language command parsing
-- [ ] Multi-language support
-- [ ] File preview generation
-- [ ] Scheduled tasks integration
-- [ ] Team collaboration features
-- [ ] Advanced search capabilities
+- For any queries and details feel free to contact **kasanimanikanta6@gmail.com**
 
 ---
 
