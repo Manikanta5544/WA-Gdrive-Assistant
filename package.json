@@ -1,0 +1,46 @@
+{
+  "name": "whatsapp-drive-assistant",
+  "version": "1.0.0",
+  "description": "WhatsApp-driven Google Drive assistant powered by n8n",
+  "main": "setup-credentials.js",
+  "scripts": {
+    "setup": "node setup-credentials.js",
+    "start": "docker-compose up -d",
+    "stop": "docker-compose down",
+    "restart": "docker-compose restart",
+    "logs": "docker-compose logs -f",
+    "logs-n8n": "docker-compose logs -f n8n",
+    "logs-db": "docker-compose logs -f postgres",
+    "debug": "docker-compose -f docker-compose.debug.yml up",
+    "clean": "docker-compose down -v && docker system prune -f",
+    "backup": "node scripts/backup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "n8n",
+    "whatsapp",
+    "google-drive",
+    "automation",
+    "ai",
+    "workflow"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/whatsapp-drive-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/whatsapp-drive-assistant/issues"
+  },
+  "homepage": "https://github.com/yourusername/whatsapp-drive-assistant#readme"
+}
